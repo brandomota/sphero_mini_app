@@ -1,5 +1,5 @@
 from sphero_mini import sphero_mini
-import time
+import time, random
 
 MAC_ADDRESS = "F9:26:CC:DE:AD:41"
 
@@ -7,10 +7,10 @@ MAC_ADDRESS = "F9:26:CC:DE:AD:41"
 cli = sphero_mini(MAC_ADDRESS)
 
 while True:
-    cli.setLEDColor(red=255, green=255, blue=0)
+    cli.setLEDColor(red=random.randint(0,255), 
+                    green=random.randint(0,255), 
+                    blue=random.randint(0,255))
 
-    time.sleep(5)
-
-    cli.setLEDColor(red=33,green=33,blue=33)
+    time.sleep(0.5)
 
 
