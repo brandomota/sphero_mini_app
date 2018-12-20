@@ -11,6 +11,6 @@ while True:
                     green=random.randint(0,255), 
                     blue=random.randint(0,255))
 
-    time.sleep(0.5)
+    time.sleep(1)
 
 
