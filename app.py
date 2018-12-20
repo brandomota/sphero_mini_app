@@ -11,6 +11,6 @@ while True:
 
     time.sleep(5)
 
-    cli.setLEDColor()
+    cli.setLEDColor(red=33,green=33,blue=33)
 
 
