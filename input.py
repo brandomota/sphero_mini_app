@@ -1,7 +1,7 @@
-from evdev import InputDevice, categorize, ecodes
+from inputs import devices, get_gamepad
 from input_constants import *
 
-gamepad = InputDevice("/dev/input/event0")
+gamepad = get_gamepad() #InputDevice("/dev/input/event0")
 
 for event in gamepad.read_loop():
    if event.type == ecodes.EV_KEY:
