@@ -1,4 +1,7 @@
 /env/
 /.idea/
 /venv/
+.vscode
+/node_version/node_modules
+/node_version/build
 *.pyc
