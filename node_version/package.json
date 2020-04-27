@@ -3,9 +3,8 @@
     "version": "1.0.0",
     "type": "module",
     "description": "node version for sphero_mini_app",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
-        "build": "rimraf build/ && tsc",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "brando.mota",
