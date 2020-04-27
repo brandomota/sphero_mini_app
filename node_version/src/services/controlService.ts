@@ -1,5 +1,5 @@
 
-import GameController = require('gamecontroller');
+import  * as GameController from 'gamecontroller';
 
 export default class ControlService {
     type: string = '';
@@ -8,6 +8,6 @@ export default class ControlService {
     }
 
    conectControll(): void {
-    const controller = new GameController(this.type);
+  //  const controller = new GameController(this.type);
    } 
 };

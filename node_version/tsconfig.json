@@ -1,12 +1,15 @@
 {
     "compilerOptions": {
-        "rootDir": "src/",
-        "skipLibCheck": true,
-        "target": "es2019",
-        "module": "commonjs",
-        "sourceMap": true,
-        "outDir": "build/"
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "build",
+      "skipLibCheck": true,
+      "sourceMap": true
     },
-    "compileOnSave": true,
-      
-}
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
