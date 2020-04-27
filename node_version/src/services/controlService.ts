@@ -1,5 +1,5 @@
 
-const GameController = require('gamecontroller');
+import GameController = require('gamecontroller');
 
 export default class ControlService {
     type: string = '';
