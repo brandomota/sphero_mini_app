@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "rootDir": "src/",
+        "skipLibCheck": true,
         "target": "es2019",
         "module": "commonjs",
         "sourceMap": true,
