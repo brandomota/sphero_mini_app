@@ -10,8 +10,14 @@ def main():
     service.wake_up_ball()
 
     while(True):
-        service.ball.roll(speed=50,heading=90)
-        sleep(100);
+        service.ball.roll(speed=150,heading=90)
+        sleep(3)
+        service.ball.roll(speed=150,heading=180)
+        sleep(3)
+        service.ball.roll(speed=150,heading=270)
+        sleep(3)
+        service.ball.roll(speed=150,heading=360)
+        sleep(3)
 
     #controll = 
 
